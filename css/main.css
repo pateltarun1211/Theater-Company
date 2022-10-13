@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.content {
+    
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: black;
+}
+
+.nav-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+
+.nav-links li a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    position:relative;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+}
+
+#bg-image {
+    width: 960px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.divider{
+    border: 1px solid black;
+    background-color: #f7f7f7;
+    margin: 0 auto;
+    width: 960px;
+    height: auto;
+    text-align: center;
+    left: 50%;
+    right: 50%;
+}
+
+.date-box {
+   font-size: 28px;
+   padding: 3px;
+   padding-left: 40px;
+   text-align: left;
+   
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.column {
+    flex: 33.33%;
+    align-items: center;
+    text-align: center;
+}
+
+.raisin-cover {
+    height: 250px;
+    width: auto;
+
+}
+
+.play-title {
+    font-size: 30px;
+    padding-bottom: 2rem;
+    list-style: none;
+}
+
+.play-sub {
+    font-size: 20px;
+    padding-bottom: 2rem;
+    list-style: none;
+}
+
+.read-button {
+    text-align: center;
+    height: 60px;
+    width: 120px;
+    font-size: 20px;
+    color: white;
+    background-color: #ebb626 ;
+    border: 1px solid black;
+}
+
+.footer-container {
+    background-color: black;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.footer {
+    width: 80%;
+    height: 40vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    font-size: xx-small;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-heading h1 {
+    margin-bottom: 2rem;
+}
+.footer-heading h2 {
+    margin-bottom: 2rem;
+}
+
+.footer-icons {
+
+}
+
+.icon {
+    background: transparent;
+    width: 4%;
+    padding-right: 10px;
+}
+
+#footer-map {
+    width: 300px;
+    height: auto;
+}
